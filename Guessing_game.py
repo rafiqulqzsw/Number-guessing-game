@@ -1,4 +1,5 @@
-secret_number = 15
+import random
+secret_number = random.randint(1, 10)
 total = 0
 play_again = "yes"
 
@@ -11,7 +12,7 @@ while play_again == "yes":
                 else: print(f"{5-total} attempts left")
 
 
-                ans = input("Guess the number?")
+                ans = input("Guess the number 1-10? ")
                 if ans == "quit":
                     print("You failed! try again.")
                     print(f"You had {total} attempts!")
