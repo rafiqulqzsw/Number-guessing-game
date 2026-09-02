@@ -8,10 +8,10 @@ The program randomly chooses a number, and the player has to guess what it is. a
 This is one of my first python projects to practise fundamentals of python and get more comfortable writing programs from scratch.
 
 **What i learned**
--variables and data types
--if / elif / else statements
--while loops
--User input
--random number generation
--basic error handling
--basic fundamentals
+- variables and data types
+- if / elif / else statements
+- while loops
+- User input
+- random number generation
+- basic error handling
+- basic fundamentals
